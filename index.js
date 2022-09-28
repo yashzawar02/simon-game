@@ -15,7 +15,7 @@ $(document).keypress(function() {
   }
 });
 
-$(document).touchend(function() {
+$(document).touchstart(function() {
   if (!started) {
     $("#level-title").text("Level " + level);
     nextSequence();
